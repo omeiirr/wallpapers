@@ -1,0 +1,36 @@
+//////////////////////////////////////////////////////////////////
+Window
+Super + Q		:		Close 
+
+
+File Explorer:
+Ctrl + H 		:		Show/Hide hidden files
+
+
+//////////////////////////////////////////////////////////////////
+Terminal
+
+------------------------------------------------------------------
+COMMANDS
+Ctrl + L 		:		Clear
+
+
+------------------------------------------------------------------
+APPLICATIONS
+
+*neofetch		:		System information
+*ncdu			:		Disk usage
+bashtop/*bpytop		:		Resource monitor
+	exit bpytop	:		Esc + Q
+ttygif			:		Convert terminal screen recordings into GIF (for README)
+r
+
+//////////////////////////////////////////////////////////////////
+Installed Application:
+
+*gnome-sushi		:		File preview in Nautilus (Spacebar)
+*gdebi			:		(debian installer)
+mousai			:		Song recognition
+simplehttp		:		transfer files from pc to phone on same network
+*uncrustify		:		For Atom (C++) beuatification
+*Xterm			:		For Atom (C++) output by gpp-compiler

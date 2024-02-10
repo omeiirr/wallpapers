@@ -1,0 +1,53 @@
+# Commands
+
+
+### System information related
+
+lsb_release	:	print distribution-specific commands
+uname		:	print system info
+lscpu		: 	CPU specs
+lsmem		:	memory specs
+
+/etc/os-release	:	distro information
+/var/log/syslog	:	system logs ( `find / -name 'syslog' ` to search for file location)
+	cat syslog | less	:	to show less
+	cat syslog | more	:	to show more
+	cat syslog | grep ubuntu	:	to find "ubuntu" in the text
+
+
+### Users
+
+whoami		:		display current user
+getent passwd {1000..6000}	:	list all normal users
+
+useradd 
+flag -D for defaults (same for all users)
+`useradd -m toothless` to create user with home-directory (-m)
+`passwd toothless` to set password for demo user
+
+
+### Modify user
+
+add user to group
+usermod -aG sudo toothless (append[-a] toothless to sudo group [-G] )
+
+
+`usermod -aG sudo toothless`
+
+
+## Tips
+
+
+man:
+while searching through manual pages, use '/' to search for keywords
+
+find recently used commands:
+press Ctrl+R, then type part of command to look through history
+keep pressing Ctrl+R to see more suggestions
+
+shell:
+can use ` echo $0 `  instead of  ` echo $SHELL `
+list all avl. shells with ` cat /etc/shells `
+`env | grep SHELL` 		(`env`  or ` printenv ` to list all environment variables)
+
+
